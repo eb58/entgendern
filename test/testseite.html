@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Testseite für Bürger*innen</title>
+  <style>body { font: 16px/1.6 system-ui, sans-serif; max-width: 680px; margin: 2rem auto; padding: 0 16px; }</style>
+</head>
+<body>
+  <h1>Liebe Kolleginnen und Kollegen,</h1>
+  <p>die Lehrer:innen und Schüler_innen treffen sich mit den Mitarbeiter*innen der Stadt.
+     Jede*r Studierende kann eine*n Ärzt*in fragen. Die Fußgängerinnen und Fußgänger
+     sowie die Radfahrer*innen werden gebeten, Rücksicht zu nehmen.</p>
+  <p>Der*die Nutzer*in muss sich anmelden. Die Schülerinnen- und Schülervertretung lädt
+     alle StudentInnen und Bürger(innen) ein. Die Lehrerin oder der Lehrer entscheidet.</p>
+  <p title="Für Expert*innen">Bild-Tooltip (Maus drüber halten): <img alt="Foto der Kund*innen" src="" width="1" height="1"></p>
+  <p><input placeholder="Name der*des Ansprechpartner*in" style="width: 100%"></p>
+  <pre>Code bleibt unverändert: Lehrer*innen</pre>
+  <p>Unverändert bleiben: Folge uns auf LinkedIn. Medizin und Mediziner. 12:30 Uhr.</p>
+  <div id="spaeter"></div>
+  <script>
+    setTimeout(() => {
+      document.getElementById('spaeter').innerHTML =
+        '<p><b>Nachgeladen:</b> Die Journalist*innen sprachen mit Politiker:innen.</p>';
+    }, 1500);
+  </script>
+</body>
+</html>
